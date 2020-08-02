@@ -1,0 +1,22 @@
+{
+  "name": "tereumapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "next": "9.4.4",
+    "nodemon": "^2.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-notifications-component": "^2.4.0",
+    "react-progress-2": "^4.4.3",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.6"
+  }
+}
