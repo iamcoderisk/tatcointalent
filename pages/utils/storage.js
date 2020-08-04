@@ -1,4 +1,4 @@
-export function getFromStorage(key){
+export  function getFromStorage(key){
   if(!key){
     return null ;
   }
@@ -15,7 +15,7 @@ export function getFromStorage(key){
 }
 
 
-export function setInStorage(key,obj){
+export  function setInStorage(key,obj){
   if(!key){
     console.log("Key is not set");
   }
@@ -26,7 +26,7 @@ export function setInStorage(key,obj){
 
   }
 }
-export function deleteFromStorage(key){
+export  function deleteFromStorage(key){
   if(key){
     localStorage.removeItem(key)
   }

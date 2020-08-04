@@ -133,9 +133,7 @@ voteUser = id => e => {
                   Tatcoin.
                   </p>
 
-                  <Link href="/"><a className="btn btn-primary">Enter Your Enail to Vote</a>
-
-                  </Link>
+                  
                   </div>
                  
                 </div>
@@ -173,9 +171,9 @@ voteUser = id => e => {
                 </div>
                 <br />
                 <br />
-                  <h5>Votes</h5>
+                  <h5>Votes:   <b>{(item.votes)}</b> </h5>
                 
-                  <b>{}</b>
+                
                 </div>
                 <div className="col-md-8">
                     <h6>Bio:</h6>
